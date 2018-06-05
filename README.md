@@ -1,7 +1,7 @@
 Red Hat Container Manager
 =========================
 
-This program allows you to retrieve information about the container project form Red Hat Connect and trigger manual builds without needing to login in the website.
+This program allows you to retrieve information about the container project form Red Hat Connect and trigger manual builds without needing to log in to the website.
 
 ## Requirements
 
