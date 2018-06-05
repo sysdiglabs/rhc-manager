@@ -32,3 +32,17 @@ Trigger manual build:
 $GOPATH/bin/rhc-manager -id <project_id> -b <build_tag>
 ```
 
+## Testing
+
+You can execute the automated tests with:
+
+```sh
+go test -v
+```
+
+And also checkout the code coverage with:
+
+```sh
+go test -coverprofile cover.out
+go tool cover -html cover.out
+```
