@@ -39,6 +39,12 @@ func (api ApiClient) GetProject(id string) (project ProjectResponse, err error) 
 
 // Triggers a build for a project using the specified tag
 func (api ApiClient) BuildProject(id, tag string) (response BuildResponse, err error) {
+
+	if tag == "" {
+		err = errors.New("tag cannot be empty")
+		return
+	}
+
 	var requestModel = struct {
 		Tag string `json:"tag"`
 	}{Tag: tag}
