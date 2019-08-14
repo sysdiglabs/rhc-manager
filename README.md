@@ -10,8 +10,8 @@ This program allows you to retrieve information about the container project form
 ## Build and Install
 
 ```sh
-go get github.com/tembleking/rhc-manager
-go install github.com/tembleking/rhc-manager/cmd/rhc-manager
+go get github.com/sysdiglabs/rhc-manager
+go install github.com/sysdiglabs/rhc-manager/cmd/rhc-manager
 ```
 
 ## Usage

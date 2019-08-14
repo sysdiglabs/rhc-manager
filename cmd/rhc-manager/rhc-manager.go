@@ -1,5 +1,5 @@
 /*
-   Copyright 2018 Sysdig
+   Copyright 2018-2019 Sysdig
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
 package main
 
 import (
-	"github.com/tembleking/rhc-manager"
+	"github.com/sysdiglabs/rhc-manager"
 	"fmt"
 	"flag"
 )
